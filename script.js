@@ -4,17 +4,13 @@ let num2 = 20;
 
 	for(let i = num1; i<=num2.length; i++){
 		if(arr[i]%3 == 0){
-			let output=("Fizz");
+			 console.log("Fizz");
 		}
 		else if(arr[i]%5 == 0){
-			let output=("Buzz");
+			 console.log("Buzz");
 		}
 		else if(arr[i]%3 == 0 && arr[i]%5 == 0){
-			let output=("FizzBuzz");
-		 else{
-			let output = "";
-		 }
+			 consol.log("FizzBuzz");
+		 
 		}
 	}
-let result = output;
-console.log(result);
